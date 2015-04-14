@@ -4,10 +4,10 @@ App Written as an Express Server and is Backed by an Sqlite3 Database.
 ## Spec
 
 1. All Blog Posts are shown on the Home Page (Index) from the Blog Database, specifically the posts table.
-	a. User can Create a New Blog Post.
-	b. User can Read all Blog Posts on the Home Page.
-	c. User can Update a Previous Blog Post.
-	d. User can Delete a Blog Post.
+	* User can Create a New Blog Post.
+	* User can Read all Blog Posts on the Home Page.
+	* User can Update a Previous Blog Post.
+	* User can Delete a Blog Post.
 2. Update Styling
 3. See If I can Implement Comments.
 
