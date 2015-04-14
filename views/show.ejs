@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+    body {
+      text-align: center;
+    }
+    img {
+      width: 450px;
+      height: 400px;
+    }
+    a {
+      padding: 20px;
+    }
+</style>
+<meta charset="UTF-8">
+	<title><%= post.title %></title>
+</head>
+<body>
+	<h1><%= post.title %></h1>
+	<h2>By <%= post.author %></h2>
+  	<img src="<%= post.image %>">
+  	<p><%= post.body %><p>
+	<a href="/post/<%= post.id %>/edit">Edit Post</a>
+  <a href="/posts"> Go Back </a>
+  <br>
+  </form>
+  <form action="/post/<%= post.id %>/?_method=DELETE" method="POST">
+  <button>DELETE POST</button>
+  </form>
+</body>
+</html>

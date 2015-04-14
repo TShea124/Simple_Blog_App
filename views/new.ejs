@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> New Post! </title>
+</head>
+<body>
+	<h1> Create Post: </h1>
+	<form action="/posts" method="POST">
+	<button> Create Post </button>
+	<br>
+	<h2> Title:</h2>
+	<input type="text" name="title" placeholder="Title" required>
+	<h2> Author: </h2>
+	<input type="text" name="author" placeholder="Author" required>
+	<h2> Body: </h2>
+	<input type="textarea" name="body" placeholder="Body" required>
+	<h2> Image URL: </h2>
+	<input type="text" name="image" placeholder="Image_URL" required>	
+	</form>
+	<br>
+	<a href="/posts"> Go Back </a>
+</body>
+</html>
